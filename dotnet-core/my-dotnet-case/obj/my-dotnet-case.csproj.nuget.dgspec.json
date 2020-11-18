@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj": {}
+    "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\my-dotnet-core\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj": {
+    "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\my-dotnet-core\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj",
+        "projectUniqueName": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\my-dotnet-core\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj",
         "projectName": "my-dotnet-case",
-        "projectPath": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj",
+        "projectPath": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\my-dotnet-core\\dotnet-core\\my-dotnet-case\\my-dotnet-case.csproj",
         "packagesPath": "C:\\Users\\PCUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\dotnet-core\\my-dotnet-case\\obj\\",
+        "outputPath": "C:\\Users\\PCUser\\Documents\\Unicus\\Assignments\\stefan_ekdahl_ngdotnetcase\\my-dotnet-core\\dotnet-core\\my-dotnet-case\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PCUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
