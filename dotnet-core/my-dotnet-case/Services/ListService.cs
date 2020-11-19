@@ -23,7 +23,7 @@ namespace my_dotnet_case.Services
             return falsedatabase;
         }
 
-        public void AddEntry(Listentry listentry)
+        public string AddEntry(Listentry listentry)
         {
             if (filled == false) {
                 FillList();
@@ -31,6 +31,8 @@ namespace my_dotnet_case.Services
             }
 
             falsedatabase.Add(listentry);
+
+            return listentry.ToString() + " has been added!";
         }
 
         public void FillList()

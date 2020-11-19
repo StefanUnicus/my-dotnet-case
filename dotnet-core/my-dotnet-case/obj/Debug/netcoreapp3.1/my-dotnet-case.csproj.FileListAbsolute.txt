@@ -18,3 +18,5 @@ C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotne
 C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotnet-core\dotnet-core\my-dotnet-case\obj\Debug\netcoreapp3.1\my-dotnet-case.dll
 C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotnet-core\dotnet-core\my-dotnet-case\obj\Debug\netcoreapp3.1\my-dotnet-case.pdb
 C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotnet-core\dotnet-core\my-dotnet-case\obj\Debug\netcoreapp3.1\my-dotnet-case.genruntimeconfig.cache
+C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotnet-core\dotnet-core\my-dotnet-case\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PCUser\Documents\Unicus\Assignments\stefan_ekdahl_ngdotnetcase\my-dotnet-core\dotnet-core\my-dotnet-case\obj\Debug\netcoreapp3.1\my-dotnet-case.csproj.CopyComplete

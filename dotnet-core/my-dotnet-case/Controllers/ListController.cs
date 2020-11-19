@@ -20,20 +20,24 @@ namespace my_dotnet_case.Controllers
             this.listService = settingsOptions.Value;
         }
 
-        //private ListService listService;
-        /*public IActionResult Index()
-        {
-            return View();
-        }*/
-        [HttpGet("getlist")]
-        public ActionResult<List<Listentry>> GetList() { return listService.GetListentries(); }
+        [HttpGet("getlist")] 
+        public List<Listentry> GetList() { 
+
+            return listService.GetListentries(); 
+        }
+        // Tested with Postman. Initially thought the issue was with the connection between service and controller when I got a list with no content
+        // Then noticed I got a list with a length matching the number of entries it should have. It was just empty inside. Debugging showed values are sent to controller.
+        // Issue thus is in how the controller returns the values, which seems to be converted to null before being sent out.
+
+        /*[HttpGet("gettest")] // This code is for quick tests against Postman to make sure the API can be reached and gives a reply.
+        public ActionResult<string> GetReply() { String reply = "Hello Postman"; return reply; }*/
 
         [HttpPost("addentry")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
         public IActionResult AddListEntry(Listentry listentry) 
         {
-            //return listService.AddEntry(listentry);
-            return null;
+            listService.AddEntry(listentry);
+            return Ok();
         }
     }
 }
