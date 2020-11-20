@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace my_dotnet_case.Models
 {
-    public class Listentry //: IEquatable<Listentry>
+    public class Listentry
     {
         private String Name { get; set; }
         private int Price { get; set; }

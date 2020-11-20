@@ -26,9 +26,18 @@ namespace my_dotnet_case
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ListService>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                    name: "CorsPolicy",
+                    builder =>
+                        builder.WithOrigins("http://localhost:4200/")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            }); //Attempt to open up CORS to angular. Not been successful so far.
 
-            //services.AddControllers();
+            services.AddScoped<ListService>();
 
             services.AddControllers();
         }
@@ -41,9 +50,12 @@ namespace my_dotnet_case
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
+            //created by default, commented out to see if locking to https was causing problems with http://localhost
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 

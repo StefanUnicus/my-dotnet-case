@@ -9,8 +9,10 @@ namespace my_dotnet_case.Services
     public class ListService
     {
         List<Listentry> falsedatabase = new List<Listentry>();
+        //Built a list to take the role of database, storing entries 
 
-        bool filled = false;
+        bool filled = false; //quick solution to make sure the list is seeded the first time the service is called
+        //Should be replaced with a seeding function triggered in initialization
 
         public List<Listentry> GetListentries()
         {
@@ -35,7 +37,7 @@ namespace my_dotnet_case.Services
             return listentry.ToString() + " has been added!";
         }
 
-        public void FillList()
+        public void FillList() //throws in some data into the fake database as if it was pre-existing
         {
             falsedatabase.Add(new Listentry("MC", 50000));
             falsedatabase.Add(new Listentry("Car", 150000));
